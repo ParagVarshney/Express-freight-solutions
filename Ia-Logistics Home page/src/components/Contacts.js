@@ -141,28 +141,8 @@ const Contacts = () => {
           ))}
         </div>
       </div>
-
-      {/* Developer Section */}
-      <div className="bg-gray-100 rounded-2xl shadow-md p-10 text-center">
-        <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-          About Our Developer
-        </h3>
-        <p className="text-gray-600 max-w-3xl mx-auto mb-6">
-          Website developed by <span className="font-bold">Kriworld Itech Private Limited</span>, 
-          a trusted technology partner specializing in innovative web solutions. 
-          With a focus on quality and performance, they delivered a seamless, user-friendly website for 
-          Express Freight Solutions.
-        </p>
-        <p className="text-sm text-gray-500">
-          <strong>Project Director:</strong> Harish Gupta <br />
-          Address: 367, Second Floor, Sarai Khawaja, Faridabad, Haryana - 121003, India <br />
-          Email: harishgkriworld@gmail.com | Phone: +91 83838 91889 <br />
-          Website: www.kriworld.com
-        </p>
-      </div>
     </section>
   );
 };
 
 export default Contacts;
-
