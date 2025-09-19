@@ -4,6 +4,9 @@ import { Link } from "react-router-dom"; // 👈 import Link
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const handlenavClick=()=>{
+    setIsOpen(false);
+  }
 
   return (
     <header className="bg-white shadow-md fixed top-0 w-full z-50">
@@ -53,12 +56,12 @@ const Header = () => {
       {isOpen && (
         <div className="md:hidden bg-white border-t shadow-md">
           <nav className="flex flex-col space-y-3 p-4 font-medium">
-            <Link to="/" className="hover:text-blue-600 transition">Home</Link>
-            <Link to="/aboutus" className="hover:text-blue-600 transition">About Us</Link>
-            <Link to="/myservices" className="hover:text-blue-600 transition">Services</Link>
-            <Link to="/myindustries" className="hover:text-blue-600 transition">Industries</Link>
-            <Link to="/why" className="hover:text-blue-600 transition">Why Choose Us</Link>
-            <Link to="/contacts" className="hover:text-blue-600 transition">Contact</Link>
+            <Link to="/" className="hover:text-blue-600 transition" onClick={handlenavClick}>Home</Link>
+            <Link to="/aboutus" className="hover:text-blue-600 transition" onClick={handlenavClick}>About Us</Link>
+            <Link to="/myservices" className="hover:text-blue-600 transition" onClick={handlenavClick}>Services</Link>
+            <Link to="/myindustries" className="hover:text-blue-600 transition" onClick={handlenavClick}>Industries</Link>
+            <Link to="/why" className="hover:text-blue-600 transition" onClick={handlenavClick}>Why Choose Us</Link>
+            <Link to="/contacts" className="hover:text-blue-600 transition" onClick={handlenavClick}>Contact</Link>
             <Link
               to="/contacts"
               className="bg-blue-600 text-white px-5 py-2 rounded-lg text-center hover:bg-blue-700 transition"
@@ -73,4 +76,3 @@ const Header = () => {
 };
 
 export default Header;
-
