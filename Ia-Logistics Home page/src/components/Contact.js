@@ -14,7 +14,7 @@ const Contact = () => {
       }}
     >
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-500/95 via-purple-600/80 to-pink-600/70"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-500/40 via-gray-600/40 to-purple-600/40"></div>
 
       <div className="relative max-w-5xl mx-auto px-6 text-center">
         {/* Heading */}
@@ -55,3 +55,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
