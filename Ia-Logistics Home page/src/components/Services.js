@@ -5,12 +5,12 @@ const Services = () => {
     {
       title: "Air Freight",
       desc: "Fast, priority handling for time-critical shipments.",
-      img: "http://freightsms.com/Content/img/pics/img03.jpg", 
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFJThQvLCQW0q6UUCs6Kvms-dymzinz0KJhQ&s", 
     },
     {
       title: "Sea Freight",
       desc: "Cost-effective bulk cargo solutions worldwide.",
-      img: "http://freightsms.com/Content/img/pics/img02.jpg", 
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzihs2H4nMALdbSd3JPx25yErqS9pmGq-vDg&s", 
     },
     {
       title: "Road & Rail",
@@ -75,3 +75,4 @@ const Services = () => {
 };
 
 export default Services;
+
